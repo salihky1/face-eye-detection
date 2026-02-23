@@ -100,6 +100,76 @@ This project detects whether a person is wearing a mask by checking if the mouth
 
 ---
 
+# 5) Face and Eye Detection from Image
+
+## Description
+This project detects human faces and eyes from a static image using Haar Cascade classifiers.
+
+## Features
+- Loads an image from disk  
+- Converts the image to grayscale  
+- Detects faces using Haar Cascade  
+- Detects eyes inside the detected face region  
+- Draws bounding boxes around faces and eyes  
+
+## Technologies
+- Python  
+- OpenCV  
+- Haar Cascade (Face + Eye)
+
+## How to Run
+1. Place an image file in the project directory  
+2. Update the image path in the code  
+3. Run the script  
+
+---
+
+# 6) Real-Time Face and Eye Detection (Webcam)
+
+## Description
+This project performs real-time face and eye detection using a webcam.
+
+## Features
+- Captures video from webcam  
+- Detects faces in real time  
+- Detects eyes inside detected face regions  
+- Draws bounding boxes for face and eyes  
+- Press **Q** to exit  
+
+## Technologies
+- Python  
+- OpenCV  
+- Haar Cascade (Face + Eye)
+
+## How to Run
+1. Connect a webcam  
+2. Run the script  
+3. Press **Q** to close the window  
+
+---
+
+# 7) Real-Time Face Detection (Webcam)
+
+## Description
+This project performs real-time face detection using only a face Haar Cascade classifier.
+
+## Features
+- Captures live video from webcam  
+- Detects faces in real time  
+- Draws bounding boxes around faces  
+- Lightweight and fast  
+- Press **Q** to exit  
+
+## Technologies
+- Python  
+- OpenCV  
+- Haar Cascade (Face)
+
+## How to Run
+1. Connect a webcam  
+2. Run the script  
+3. Press **Q** to exit  
+
 ## Installation
 
 ```bash
